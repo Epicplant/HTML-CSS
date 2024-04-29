@@ -1,0 +1,50 @@
+/*
+  Christopher Roy
+  04/07/2020
+  Section AK: Austin Jenchi
+
+A CSS file that is shared by about.html and attachment.html. The file sylizes aspects
+of the aformentioned webpages including but not limited to text-font and and page positioning.
+*/
+
+body {
+  background-color: cornflowerblue;
+  font-family: "Helvetica", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  text-align: center;
+}
+
+header {
+  color: rgb(55, 109, 33);
+  font-size: 50;
+  text-decoration: underline;
+  font-family: "arial", sans-serif;
+  font-weight: bold;
+}
+
+article ol, article p, article ul {
+  box-shadow: 4px 4px;
+  background: rgb(153, 22, 29);
+  width: 550px;
+  position: relative;
+  left: 250px;
+}
+
+.mission {
+  width: 300px;
+  border-style: inset;
+  border-color: rgb(245, 67, 54);
+  margin-left: 385px;
+}
+
+ol > li, ul > li {
+  color: goldenrod;
+  font-family: "Times New Roman", serif;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
